@@ -1,7 +1,6 @@
 .background1 {
   background-image: url('images/pot.jpg');
 }
-
 .background2 {
   background-image: url('images/sickle.jpg');
 }
@@ -12,3 +11,9 @@
   .navigation a {
     margin: 0 10px;
   }
+  .index-item {
+    list-style-type: upper-latin
+  }
+.poem-container {
+  margin-left: 40px;
+}
