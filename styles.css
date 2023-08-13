@@ -114,3 +114,18 @@ li.index-item a:hover {
 .gallery .video-container.show-video iframe {
   display: block;
 }
+
+.audio-container {
+  margin-bottom: 35px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+
+.audio-controls {
+  display: block; 
+}
+
+.audio-text {
+  margin-top: 15px;
+}
