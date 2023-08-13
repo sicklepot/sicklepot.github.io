@@ -3,17 +3,68 @@
 }
 .background2 {
   background-image: url('images/sickle.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 50% auto;
 }
 .navigation {
-    display: flex;
-    justify-content: center;
-  }
-  .navigation a {
-    margin: 0 10px;
-  }
-  .index-item {
-    list-style-type: upper-latin
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: right;
+}
+.navigation a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+.navigation a:visited {
+  color: black;
+  text-decoration: none;
+}
+.navigation a:hover {
+  text-decoration: underline;
+}
+.navigation a.current-page {
+  text-decoration: underline;
+}
+.placeholder {
+  height: 100vh;
+}
+.index {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40vh; 
+}
+
+.index-item {
+  list-style-type: upper-latin;
+  margin-left: 10px;
+  text-decoration: none;
+  color:black;
+}
+li.index-item a {
+  color: black;
+  text-decoration: none;
+}
+li.index-item a:hover {
+  text-decoration: underline;
+}
+
 .poem-container {
-  margin-left: 40px;
+  position: relative;
+  margin-left: 40vh; 
+  margin-top: 0; 
+  margin-bottom: 100vh; 
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
