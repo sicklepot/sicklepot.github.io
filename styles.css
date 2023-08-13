@@ -99,8 +99,9 @@ li.index-item a:hover {
 }
 .gallery .video-container .cover-text {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  bottom: 0px;
+  right: 15px;
+  color: black;
 }
 .gallery .video-container iframe {
   width: 100%;
