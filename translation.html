@@ -2,29 +2,32 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="//s1.hdslb.com/bfs/static/jinkela/long/js/play-1.4.0.js"></script>
+    <script>
+      function showVideo(container) {
+        container.classList.add('show-video');
+      }
+    </script>
 </head>
-<body class="background2">
+<body>
 <div class="navigation">
     <a href="index.html">镰刀锅</a>
-    <a href="sound.html">灵游指南</a>
+    <a href="sound.html">毒品</a>
     <a href="photography.html">夜路</a>
     <a href="poetry.html">禅屎集</a>
     <a href="translation.html">撅火</a>
     <a href="about.html">郭刀镰</a>
 </div>
 
-<div class="content">
-
-  <script>
-    var player = new BilibiliPlayer({
-      container: document.getElementById('player-container'),
-      aid: '223817940',
-      page: '1',
-    });
-    player.play();
-  </script>
-
+<div class="gallery">
+  <div class="video-container">
+    <img src="images/dub.jpeg" alt="Dub Echoes" onclick="showVideo(this.parentNode)">
+    <iframe src="https://player.bilibili.com/player.html?aid=223817940&bvid=BV1F841137BB&page=1&danmaku=0&autoplay=0&as_wide=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+  </div>
+  <div class="video-container">
+    <img src="images/delian.jpeg" alt="The Delian Mode" onclick="showVideo(this.parentNode)">
+    <iframe src="https://player.bilibili.com/player.html?aid=343495180&bvid=BV1W94y1Q71X&page=1&danmaku=0&autoplay=0&as_wide=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+  </div>
 </div>
+
 </body>
 </html>
