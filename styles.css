@@ -8,8 +8,12 @@
   background-attachment: fixed;
   background-size: 50% auto;
 }
+.content {
+  margin-top: 0px; 
+  position: absolute;
+}
 .navigation {
-  position: fixed;
+  position: flex;
   top: 0;
   left: 0;
   right: 0;
@@ -30,15 +34,6 @@
 .navigation a.current-page {
   text-decoration: underline;
 }
-.placeholder {
-  height: 100vh;
-}
-.index {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 40vh; 
-}
 
 .index-item {
   list-style-type: upper-latin;
@@ -53,14 +48,10 @@ li.index-item a {
 li.index-item a:hover {
   text-decoration: underline;
 }
-
 .poem-container {
-  position: relative;
-  margin-left: 40vh; 
-  margin-top: 0; 
-  margin-bottom: 100vh; 
+  margin-top: 100px; 
+  margin-left:50px;
 }
-
 .centered-text {
   position: absolute;
   top: 50%;
