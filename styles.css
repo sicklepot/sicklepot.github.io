@@ -1,5 +1,8 @@
 .background1 {
   background-image: url('images/pot.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top left;
 }
 .background2 {
   background-image: url('images/sickle.jpg');
@@ -8,10 +11,19 @@
   background-attachment: fixed;
   background-size: 50% auto;
 }
-.content {
-  margin-top: 0px; 
-  position: absolute;
+.background3 {
+  background-image: url('images/sickle-1.jpg');
+  background-position: left;
+  background-size: 30% auto;
 }
+.background4 {
+  background-image: url('images/pot-1.jpg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  transform: scaleX(-1);
+}
+
+
 .navigation {
   position: flex;
   top: 0;
@@ -19,10 +31,12 @@
   right: 0;
   display: flex;
   justify-content: right;
+  text-decoration: none;
 }
 .navigation a {
   margin: 0 10px;
   text-decoration: none;
+  color:black;
 }
 .navigation a:visited {
   color: black;
@@ -52,10 +66,18 @@ li.index-item a:hover {
   margin-top: 100px; 
   margin-left:50px;
 }
-.centered-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 60px auto;
+}
+.gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }

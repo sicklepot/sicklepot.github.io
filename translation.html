@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="//s1.hdslb.com/bfs/static/jinkela/long/js/play-1.4.0.js"></script>
 </head>
 <body class="background2">
 <div class="navigation">
@@ -13,6 +14,17 @@
     <a href="about.html">郭刀镰</a>
 </div>
 
-<p>https://soundcloud.com/sicklepot/live-rec-110723</p>
+<div class="content">
+
+  <script>
+    var player = new BilibiliPlayer({
+      container: document.getElementById('player-container'),
+      aid: '223817940',
+      page: '1',
+    });
+    player.play();
+  </script>
+
+</div>
 </body>
 </html>
