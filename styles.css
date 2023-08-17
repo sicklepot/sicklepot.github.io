@@ -20,7 +20,6 @@
   background-image: url('images/pot-1.jpg');
   background-repeat: no-repeat;
   background-position: top right;
-  transform: scaleX(-1);
 }
 
 
@@ -32,20 +31,19 @@
   display: flex;
   justify-content: right;
   text-decoration: none;
+  color: black;
+  background-blend-mode: difference;
 }
 .navigation a {
   margin: 0 10px;
   text-decoration: none;
-  color:black;
+  color: inherit;
 }
 .navigation a:visited {
-  color: black;
+  color: inherit;
   text-decoration: none;
 }
 .navigation a:hover {
-  text-decoration: underline;
-}
-.navigation a.current-page {
   text-decoration: underline;
 }
 
