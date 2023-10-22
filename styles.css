@@ -74,9 +74,10 @@ li.index-item a:hover {
   max-width: 1024px;
   margin: 60px auto;
 }
+
 .gallery img {
-  width: 800px;
-  height: 800px;
+  width: 640px;
+  height: 640px;
   object-fit: cover;
 }
 
@@ -114,11 +115,10 @@ li.index-item a:hover {
 }
 
 .audio-container {
-  margin-bottom: 35px;
-  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-top: 50px;
   margin-left: 50px;
 }
-
 
 .audio-controls {
   display: block; 
@@ -126,4 +126,10 @@ li.index-item a:hover {
 
 .audio-text {
   margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .audio-container {
+    width: 100%;
+  }
 }
