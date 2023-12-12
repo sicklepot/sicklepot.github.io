@@ -6,23 +6,11 @@
 }
 
 .background2 {
-  background-image: url('images/sickle.jpg');
+  background-image: url('images/ouroboros.jpg');
   background-position: right bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 50% auto;
-}
-
-.background3 {
-  background-image: url('images/sickle-1.jpg');
-  background-position: left;
-  background-size: 30% auto;
-}
-
-.background4 {
-  background-image: url('images/pot-1.jpg');
-  background-repeat: no-repeat;
-  background-position: top right;
 }
 
 .navigation {
@@ -145,4 +133,27 @@ li.index-item a:hover {
   .audio-container {
     width: 100%;
   }
+}
+
+.right-align {
+  text-align: right;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
+
+.silent-content {
+  opacity: 0;
+  text-align: right;
+  position: absolute;
+  bottom: 0%;
+  left: 1%;
+  transform: translate(0, -50%);
+  transition: opacity 0.2s ease;
+}
+
+.show-silent-content{
+  opacity: 1;
 }

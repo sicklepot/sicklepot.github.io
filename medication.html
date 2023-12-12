@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>众妙之门</title>
+    <title>镰刀锅</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" href="images/pot-icon32.png" sizes="16x16" type="image/png">
     <link rel="icon" href="images/pot-icon16.png" sizes="32x32" type="image/png">
+    <style>
+          body {
+      transition: background-image 1s ease;
+    }
+    </style>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var TextRight = document.querySelector('.right-align');
+      var content = document.querySelector('.silent-content');
+
+      TextRight.addEventListener('click', function() {
+        TextRight.style.display = 'none';
+        content.classList.add('show-silent-content');
+        document.body.classList.toggle('background2');
+      });
+    });
+    </script>
 </head>
 <body>
   <div class="navigation">
     <a href="index.html">郭刀镰</a>
-    <a href="medication.html">众妙之门</a>
+    <a href="medication.html">镰刀锅</a>
     <a href="nocturia.html">夜路</a>
     <a href="potzen.html">新诗或锅锅禅</a>
     <a href="londondiary.html">旧诗二〇二三</a>
 </div>
 
-<div class="audio-container">
-  <audio controls class="audio-controls">
-    <source src="audio/231010.mp3" type="audio/mpeg">
-  </audio>
+<div class="right-align">
+  <p>有些声音只有在沉默里才能听见。</p>
 </div>
 
-<div class="audio-container">
-    <audio controls class="audio-controls">
-      <source src="audio/230711.mp3" type="audio/mpeg">
-    </audio>
-</div>
-
-<div class="audio-container">
-    <audio controls class="audio-controls">
-      <source src="audio/230422.mp3" type="audio/mpeg">
-    </audio>
+<div class="silent-content">  
+  <a href="https://archive.org/details/sicklepotvol-1">[vol 1]</a>
+  <a href="https://baihui.live/shows/functionlab-w-sicklepot-23-10-19/cn/">[vol 2]</a>
 </div>
 
 </body>
