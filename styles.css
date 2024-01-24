@@ -135,25 +135,10 @@ li.index-item a:hover {
   }
 }
 
-.right-align {
-  text-align: right;
-  position: absolute;
-  bottom: 0%;
-  right: 0%;
-  transform: translate(0, -50%);
-  cursor: pointer;
-}
-
-.silent-content {
-  opacity: 0;
+.music-content {
   text-align: right;
   position: absolute;
   bottom: 0%;
   left: 1%;
   transform: translate(0, -50%);
-  transition: opacity 0.2s ease;
-}
-
-.show-silent-content{
-  opacity: 1;
 }
