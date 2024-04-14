@@ -137,6 +137,7 @@ li.index-item a:hover {
 
 .music-content {
   text-align: right;
+  color: red;
   position: absolute;
   bottom: 0%;
   left: 1%;
