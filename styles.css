@@ -39,11 +39,19 @@ body {
     max-width: 800px;
 }
 
-/* 目录样式 */
+/* 目录样式 - 使用 > 符号 */
 .index-item {
-    list-style-type: disclosure-closed;
-    margin-left: 10px;
+    list-style-type: none;
+    margin-left: 0;
     margin-bottom: 10px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.index-item:before {
+    content: ">";
+    position: absolute;
+    left: 0;
 }
 
 .index-item a {
@@ -54,7 +62,6 @@ body {
 .index-item a:hover {
     text-decoration: underline;
 }
-
 /* 视频容器 */
 .poem-container {
     margin-top: 60px;
