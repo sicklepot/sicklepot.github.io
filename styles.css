@@ -11,6 +11,7 @@ body {
     background-color: #fff;
     max-width: 100%;
     overflow-x: hidden;
+    font-size: 16px;
 }
 
 .navigation {
@@ -23,12 +24,15 @@ body {
   text-decoration: none;
   color: black;
   background-blend-mode: difference;
+  width: 100%;
 }
 
 .navigation a {
   margin: 0 10px;
   text-decoration: none;
   color: inherit;
+  font-size: 16px;
+  font-size: max(16px, 1rem);
 }
 
 .navigation a:visited {
@@ -43,6 +47,7 @@ body {
 .content {
     padding: 0 30px 30px;
     width: 100%;
+    font-size: 16px;
     max-width: 800px;
 }
 
