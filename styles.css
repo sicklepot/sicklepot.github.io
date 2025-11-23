@@ -8,7 +8,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.5;
+    line-height: 1.9;
     color: #333;
     background-color: #fff;
     max-width: 100%;
@@ -17,13 +17,16 @@ body {
 
 .navigation {
     display: flex;
-    padding: 0px 0px 72px;
+    padding-top: 0;
+    padding-right: 191px;
+    padding-bottom: 91px;
+    padding-left: 191px;
     width: 100%;
     justify-content: flex-end;
 }
 
 .navigation a {
-    margin-right: 48px;
+    margin-left: 48px;
     text-decoration: none;
     color: #000;
     font-size: 48px;
@@ -34,8 +37,13 @@ body {
 }
 
 .content {
-    padding: 0 30px 30px;
+    padding-top: 0;
+    padding-right: 191px;
+    padding-bottom: 191px;
+    padding-left: 191px;
     width: 100%;
+    max-width: 1910px;
+    margin: 0 auto;
 }
 
 .index-item {
