@@ -8,8 +8,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.9;
-    color: #333;
+    line-height: 1.19;
+    color: #191919;
     background-color: #fff;
     max-width: 100%;
     overflow-x: hidden;
@@ -17,21 +17,22 @@ body {
 
 .navigation {
     display: flex;
-    padding-top: 0;
+    padding-top: 19px;
     padding-right: 191px;
     padding-bottom: 91px;
     padding-left: 191px;
     width: 100%;
+    max-width: 1919px; 
+    margin: 0 auto; 
     justify-content: flex-end;
 }
 
 .navigation a {
-    margin-left: 48px;
+    margin-left: 29px;
     text-decoration: none;
-    color: #000;
-    font-size: 48px;
+    color: #191919;
+    font-size: 29px;
 }
-
 .navigation a:hover {
     text-decoration: underline;
 }
@@ -42,44 +43,20 @@ body {
     padding-bottom: 191px;
     padding-left: 191px;
     width: 100%;
-    max-width: 1910px;
+    max-width: 1919px;
     margin: 0 auto;
 }
 
-.index-item {
-    list-style-type: none;
-    margin-left: 0;
-    margin-bottom: 10px;
-    position: relative;
-    padding-left: 15px;
-}
-
-.index-item:before {
-    content: ">";
-    position: absolute;
-    left: 0;
-}
-
-.index-item a {
-    color: #000;
-    text-decoration: none;
-    font-size: 48px;
-}
-
-.index-item a:hover {
-    text-decoration: underline;
-}
-
 .poem-container {
-    margin-top: 60px;
-    margin-bottom: 40px;
-    font-size: 48px;
+    margin-top: 59px;
+    margin-bottom: 39px;
+    font-size: 29px;
 }
 
 .poem-container h2 {
-    margin-bottom: 15px;
+    margin-bottom: 19px;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 29px;
 }
 
 .video-responsive {
