@@ -18,9 +18,9 @@ body {
 .navigation {
     display: flex;
     padding-top: 19px;
-    padding-right: 191px;
+    padding-right: 119px;
     padding-bottom: 91px;
-    padding-left: 191px;
+    padding-left: 119px;
     width: 100%;
     max-width: 1919px; 
     margin: 0 auto; 
@@ -38,18 +38,15 @@ body {
 }
 
 .content {
-    padding-top: 0;
-    padding-right: 191px;
-    padding-bottom: 191px;
-    padding-left: 191px;
+    padding-right: 119px;
+    padding-left: 119px;
     width: 100%;
     max-width: 1919px;
     margin: 0 auto;
 }
 
 .poem-container {
-    margin-top: 59px;
-    margin-bottom: 39px;
+    margin-bottom: 91px;
     font-size: 29px;
 }
 
