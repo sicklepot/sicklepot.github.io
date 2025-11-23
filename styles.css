@@ -37,6 +37,20 @@ body {
     text-decoration: underline;
 }
 
+.language-switcher {
+    margin-right: auto; 
+}
+
+.language-switcher a {
+    text-decoration: none;
+    font-size: 29px;
+    margin-left: 0px;
+}
+
+.language-switcher a:hover {
+    text-decoration: underline;
+}
+
 .content {
     padding-right: 119px;
     padding-left: 119px;
