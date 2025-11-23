@@ -70,6 +70,7 @@ body {
 .poem-container {
     margin-top: 60px;
     margin-bottom: 40px;
+    font-size: 16px;
 }
 
 /* 标题仅加粗 */
@@ -105,14 +106,17 @@ body {
     
     .navigation a {
         margin-right: 15px;
+        font-size: 16px;
     }
     
     .content {
         padding: 0 20px 20px;
+        font-size: 16px;
     }
     
     .poem-container {
         margin-top: 40px;
+        font-size: 16px;
     }
 }
 
@@ -127,13 +131,16 @@ body {
     .navigation a {
         margin-right: 12px;
         margin-bottom: 5px;
+        font-size: 16px;
     }
     
     .content {
         padding: 0 15px 15px;
+        font-size: 16px;
     }
     
     .poem-container {
         margin-top: 30px;
+        font-size: 16px;
     }
 }
