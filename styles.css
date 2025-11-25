@@ -19,7 +19,7 @@ body {
     display: flex;
     padding-top: 19px;
     padding-right: 119px;
-    padding-bottom: 91px;
+    padding-bottom: 0px;
     padding-left: 119px;
     width: 100%;
     max-width: 1919px; 
@@ -34,6 +34,27 @@ body {
     font-size: 29px;
 }
 .navigation a:hover {
+    text-decoration: underline;
+}
+
+.category-nav {
+    padding-top: 19px;
+    padding-right: 119px;
+    padding-bottom: 0px;
+    padding-left: 119px;
+    display: flex;
+    flex-direction: column; /* 竖向排列 */
+    align-items: flex-end; /* 右对齐 */
+    gap: 10px; /* 链接间距 */
+}
+
+.category-nav a {
+    text-decoration: none;
+    font-size: 29px;
+    color: #191919;
+}
+
+.category-nav a:hover {
     text-decoration: underline;
 }
 
@@ -54,6 +75,7 @@ body {
 .content {
     padding-right: 119px;
     padding-left: 119px;
+    padding-top: 91px;
     width: 100%;
     max-width: 1919px;
     margin: 0 auto;
