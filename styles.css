@@ -25,6 +25,8 @@ body {
     max-width: 1919px; 
     margin: 0 auto; 
     justify-content: flex-end;
+    flex-wrap: wrap;
+    line-height: 39px;
 }
 
 .navigation a {
@@ -32,6 +34,7 @@ body {
     text-decoration: none;
     color: #191919;
     font-size: 29px;
+    white-space: nowrap;
 }
 .navigation a:hover {
     text-decoration: underline;
@@ -39,7 +42,7 @@ body {
 
 .category-nav {
     display: flex;
-    padding-top: 19px;
+    padding-top: 9px;
     padding-right: 119px;
     padding-bottom: 0px;
     padding-left: 119px;
@@ -48,7 +51,7 @@ body {
     margin: 0 auto; 
     flex-direction: column; 
     align-items: flex-end; 
-    gap: 9px; 
+    row-gap: 9px; 
 }
 
 .category-nav a {
@@ -63,6 +66,7 @@ body {
 
 .language-switcher {
     margin-right: auto; 
+    white-space: wrap;
 }
 
 .language-switcher a {
@@ -82,6 +86,7 @@ body {
     width: 100%;
     max-width: 1919px;
     margin: 0 auto;
+    overflow-wrap: break-word;
 }
 
 .poem-container {
