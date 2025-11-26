@@ -38,11 +38,14 @@ body {
 }
 
 .category-nav {
+    display: flex;
     padding-top: 19px;
     padding-right: 119px;
     padding-bottom: 0px;
     padding-left: 119px;
-    display: flex;
+    width: 100%;
+    max-width: 1919px; 
+    margin: 0 auto; 
     flex-direction: column; 
     align-items: flex-end; 
     gap: 9px; 
