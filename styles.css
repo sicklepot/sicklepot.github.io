@@ -43,9 +43,9 @@ body {
     padding-bottom: 0px;
     padding-left: 119px;
     display: flex;
-    flex-direction: column; /* 竖向排列 */
-    align-items: flex-end; /* 右对齐 */
-    gap: 10px; /* 链接间距 */
+    flex-direction: column; 
+    align-items: flex-end; 
+    gap: 9px; 
 }
 
 .category-nav a {
