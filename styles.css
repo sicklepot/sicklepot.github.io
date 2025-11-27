@@ -126,7 +126,6 @@ body {
 .controls {
     display: flex;
     align-items: center;
-    gap: 29px;
 }
 
 .play-btn {
@@ -141,4 +140,5 @@ body {
 
 .time {
     font-size: 29px;
+    padding-left: 29px;
 }
