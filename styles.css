@@ -102,9 +102,9 @@ body {
 
 .poem-container audio {
     width: 100%;
-    max-width: 499px;
+    max-width: 399px;
     min-height: 49px;
-    margin: 49px 0;
+    margin-bottom: 79px;
 }
 
 .video-responsive {
