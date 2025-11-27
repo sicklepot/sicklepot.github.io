@@ -103,8 +103,6 @@ body {
 .poem-container audio {
     width: 100%;
     max-width: 399px;
-    font-size: 91px;
-    line-height: 91px;
 }
 
 .video-responsive {
