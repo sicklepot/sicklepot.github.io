@@ -126,6 +126,7 @@ body {
 .controls {
     display: flex;
     align-items: center;
+    min-height:49px;
 }
 
 .play-btn {
