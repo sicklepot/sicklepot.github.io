@@ -130,17 +130,16 @@ body {
 }
 
 .play-btn {
-    min-width: 49px;
-    min-height: 49px;
+    padding-right: 9.1px;
+    width:39px;
     background: #ffffff;
     color: #191919;
     border: none;
     border-radius: 19%;
-    font-size: 39px;
+    font-size: 29px;
     cursor: pointer;
 }
 
 .time {
     font-size: 29px;
-    min-width: 79px;
 }
