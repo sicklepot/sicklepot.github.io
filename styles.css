@@ -131,18 +131,20 @@ body {
 }
 
 .play-btn {
-    width: 39px;
-    height: 39px;
+    width: 49px;
+    height: 49px;
     background: #191919;
     color: white;
     border: none;
     border-radius: 19%;
-    font-size: 19px;
+    font-size: 25px;
     cursor: pointer;
+    -webkit-appearance: none; 
 }
 
 .progress-bar {
     flex: 1.1;
+    -webkit-flex: 1.1;
     height: 3.9px;
     background: #191919;
     border-radius: 1.9px;
