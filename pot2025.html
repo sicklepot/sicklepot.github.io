@@ -34,9 +34,16 @@
 
 <div id="8.27" class="poem-container">
     <h2>8.27</h2>
-    <audio controls>
-        <source src="audio/3-Audio 0007 [2025-08-27 181819].mp3" type="audio/mpeg">
-    </audio>
+    <div class="custom-audio-player">
+    <audio id="myAudio" src="audio/3-Audio 0007 [2025-08-27 181819].mp3"></audio>
+    <div class="controls">
+        <button class="play-btn">▶</button>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+        <span class="time">0:00 / 0:00</span>
+    </div>
+</div>
 </div>
 
 <div id="顿悟与理性的谜团" class="poem-container">
@@ -251,5 +258,7 @@
 </div>
 
 </div>
+
+<script src="audio-player.js"></script>
 </body>
 </html>
