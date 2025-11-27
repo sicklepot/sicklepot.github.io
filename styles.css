@@ -100,6 +100,12 @@ body {
     font-size: 29px;
 }
 
+.poem-container audio {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px 0;
+}
+
 .video-responsive {
     position: relative;
     padding-bottom: 56.25%;
