@@ -130,8 +130,7 @@ body {
 }
 
 .play-btn {
-    padding-right: 9.1px;
-    width:39px;
+    min-width:49px;
     background: #ffffff;
     color: #191919;
     border: none;
