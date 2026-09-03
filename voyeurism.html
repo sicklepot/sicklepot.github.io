@@ -4,25 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>voyeurism</title>
+  <style>img { width: 100%; }</style>
 </head>
 <body>
     <div class="topbar">
       <a href="index.html">← Back</a>
 
-      <h1>Voyeurism</h1>
+      <h1>voyeurism</h1>
 
-    <!-- 照片会自动出现在这里，你不用改这部分 -->
     <div class="gallery" id="gallery">
       <p class="note">peeping…</p>
     </div>
 
     <script>
-      /* ↓↓↓ 只需改这三行（一次性）↓↓↓ */
-      const USER   = "sicklepot";              // 例如 zhangsan
-      const REPO   = "sicklepot.github.io";     // 用户主页站就是这个格式；若是项目站，填仓库名
-      const FOLDER = "images/voyeurism";              // 照片放这个文件夹
-      /* ↑↑↑ 改完保存即可，以后只管往上面这个文件夹丢照片 ↑↑↑ */
-
+      const USER   = "sicklepot";
+      const REPO   = "sicklepot.github.io";
+      const FOLDER = "images/voyeurism";
       const api = "https://api.github.com/repos/" + USER + "/" + REPO + "/contents/" + FOLDER;
       const box = document.getElementById("gallery");
 
@@ -36,7 +33,7 @@
           box.innerHTML = "";
           imgs.forEach(function (f) {
             var img = document.createElement("img");
-            img.src = f.download_url;   // 直接用 GitHub 上的图片地址
+            img.src = f.download_url;
             img.loading = "lazy";
             img.alt = "";
             box.appendChild(img);
